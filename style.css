@@ -51,7 +51,7 @@ ul
 	justify-content: space-around;
 	position: fixed;
 	background-color: white;
-	width: 100%;
+	width: 100vw;
 	align-items: center;
 	height: 100px;
 	z-index: 100;
@@ -495,10 +495,7 @@ textarea
  
 {   
 
-#barre_menu ul
-{
-    margin-right: 800px;
-}
+
  .texte_presentation
     {
         position:absolute;
@@ -512,13 +509,23 @@ textarea
 {
     font-size: 26px;
     width: 400px;
+
 }
 
 .texte_presentation .texte
-    {
+{
     font-size: 13px;
-    }
+}
 
+.left
+{
+    top: 200px;
+}
+
+.right
+{
+    top: 200px;
+}
 #portfolio
     {
         max-width: 1300px;
@@ -563,8 +570,25 @@ textarea
 .accroche
 {
     width: 280px;
+    color: #5CADD3;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40%;
 }
 
+.texte
+{
+    width: 280px;
+    color: #5CADD3;
+    text-align: center;
+    margin: auto;
+}
+
+.bouton
+{
+    text-align: center;
+}
 #mac_paragraphe
 {
     display: initial;
@@ -579,11 +603,25 @@ textarea
 {
     height: 130%;
     width: 130%;
+    margin-left: -15%;
 }
 
  .texte_presentation
     {
         position: static;
     }
+
+.menu
+{
+    width: 50%;
+    font-size: 14px;
+    margin-left: 25%;
+}
+
+#bloc-form
+{
+    margin-left: 50%;
+}
+
 
 }
