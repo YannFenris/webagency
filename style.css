@@ -135,24 +135,20 @@ span
 }
 .slider img
 {
-	width: 50%; 
-	height: auto; 
-	float: left;
+	height: 600px; 
+	
 }
 
 .slider
 {
-	width: 50%;
 	padding: 18px;
 }
 
 .slides {
-	margin-top: 100px;
     -webkit-animation: slider 16s infinite;
     animation: slider 16s infinite; 
     left:0; top:0;
     position: absolute;
-    width: 200%; 
     z-index: 0;
 }
 
