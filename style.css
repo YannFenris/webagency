@@ -533,7 +533,7 @@ textarea
 
 .introduction
 {
-    width: 700px;
+    width: 40%;
     margin: auto;
 }
 
@@ -553,74 +553,109 @@ textarea
 @media all and (min-width: 300px) and (max-width: 758px)
 {
 
-#barre_menu 
-{
-    display:initial;
-
-}
-
-#barre_menu img
-{
-    margin: auto;
-    display: block;
-}
-
-#barre_menu nav
-{
-    margin: auto;
-    display: block;
-    width: 350px;
-}
-
-.accroche
-{
-    width: 280px;
-    color: #5CADD3;
-    font-size: 30px;
-    text-align: center;
-    margin: auto;
-    padding-top: 40%;
-}
-
-.texte
-{
-    width: 280px;
-    color: #5CADD3;
-    text-align: center;
-    margin: auto;
-}
-
-.bouton
-{
-    text-align: center;
-}
-#mac_paragraphe
-{
-    display: initial;
-}
-
-.slider img, .left, .right
-{
-    display: none;
-}
-
-#mac img
-{
-    height: 130%;
-    width: 130%;
-    margin-left: -15%;
-}
-
- .texte_presentation
+    #barre_menu 
     {
-        position: static;
+        display:initial;
+
     }
 
-.menu
-{
-    width: 50%;
-    font-size: 14px;
-    margin-left: 25%;
-}
+    #barre_menu img
+    {
+        margin: auto;
+        display: block;
+    }
+
+    #barre_menu nav
+    {
+        margin: auto;
+        display: block;
+        width: 350px;
+    }
+
+    .accroche
+    {
+        width: 280px;
+        color: #5CADD3;
+        font-size: 30px;
+        text-align: center;
+        margin: auto;
+        padding-top: 40%;
+    }
+
+    .texte
+    {
+        width: 280px;
+        color: #5CADD3;
+        text-align: center;
+        margin: auto;
+    }
+
+    .bouton
+    {
+        text-align: center;
+    }
+    #mac_paragraphe
+    {
+        display: initial;
+    }
+
+    .slider img, .left, .right
+    {
+        display: none;
+    }
+
+    #mac img
+    {
+        height: 130%;
+        width: 130%;
+        margin-left: -15%;
+    }
+
+     .texte_presentation
+        {
+            position: static;
+        }
+
+    .menu
+    {
+        width: 50%;
+        font-size: 14px;
+        margin-left: 25%;
+    }
+
+    form
+    {
+        width: 100vw;
+        left: 0;
+        position: initial;
+    }
+
+    #bloc_form
+    {
+        padding-left: 5%;
+    }
+
+    form input
+
+    {
+        width: 90%;
+
+    }
+
+    textarea
+    {
+        width: 90%;
+
+    }
+     iframe
+    {
+        position: relative;
+    }
+
+    #filtre
+    {
+        top: 0;
+    }
+
 
 }
