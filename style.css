@@ -534,7 +534,12 @@ textarea
 .introduction
 {
     width: 700px;
-    margin-left: 30px;
+    margin: auto;
+}
+
+.text_icone
+{
+    margin-right: 30%;
 }
 
 
@@ -617,11 +622,5 @@ textarea
     font-size: 14px;
     margin-left: 25%;
 }
-
-#bloc-form
-{
-    margin-left: 50%;
-}
-
 
 }
