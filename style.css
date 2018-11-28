@@ -595,7 +595,7 @@ textarea
 
     .texte
     {
-        width: 280px;
+        width: 290px;
         color: #5CADD3;
         text-align: center;
         margin: auto;
@@ -605,6 +605,7 @@ textarea
     {
         text-align: center;
     }
+
     #mac_paragraphe
     {
         display: initial;
