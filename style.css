@@ -21,6 +21,7 @@ body
 	src: url('fonts/Roboto-Regular.ttf');
 }
 
+/* barre navigation */
 h2
 {
 	font-family: 'Roboto-Medium';
@@ -86,6 +87,8 @@ header
 	border-top: 3px solid #5CADD3;
 
 }
+
+/* slider */
 
 .accroche
 {
@@ -168,6 +171,8 @@ span
     border-bottom-left-radius: 100px;
 
 }
+
+/* services */
 
 h3
 {
@@ -271,6 +276,8 @@ hr
     text-align: left;
     width: 400px;
 }
+
+/* portfolio */
 
 .menu 
 {
@@ -395,6 +402,8 @@ figure:hover figcaption
     padding: 0px 20px 0px 20px;
  }
 
+/* formulaire */
+
 
 #map
 {
@@ -471,11 +480,12 @@ textarea
     margin-top: 10px;
 }
 
+/* responsive */
+
 
 @media all and (min-width: 768px) and (max-width:1024px)
  
 {   
-
 
  .texte_presentation
     {
@@ -503,11 +513,6 @@ textarea
     top: 200px;
 }
 
-#mac img
-{
-    left: 80%;
-}
-
 .right
 {
     top: 200px;
@@ -532,8 +537,28 @@ textarea
 #paragraphe text 
     {
         margin-top: 500px;
-        margin-right:500px;
+        margin-right:100px;
     }
+
+#paragraphe .fa-circle
+{
+
+    bottom: 40px;
+    left: 30px;
+}
+
+#mac img
+{
+    display: none;
+}
+ 
+#paragraphe
+{
+
+    margin: auto;
+
+}
+
 }
 
 @media all and (min-width: 300px) and (max-width: 758px)
@@ -585,6 +610,14 @@ textarea
         display: initial;
     }
 
+     #paragraphe .fa-circle
+{
+
+    bottom: 40px;
+    left: 30px;
+}
+ 
+
     header 
     {
         background-image:none;
@@ -596,9 +629,9 @@ textarea
     }
     #mac img
     {
-        height: 130%;
-        width: 130%;
-        margin-left: -15%;
+        height: 200px;
+        width: 300px;
+        margin: auto;
     }
 
      .texte_presentation
@@ -612,6 +645,11 @@ textarea
         font-size: 14px;
         margin-left: 25%;
     }
+
+    .menu li
+{
+    padding: 13px;
+}
 
     form
     {
@@ -646,6 +684,5 @@ textarea
     {
         top: 0;
     }
-
 
 }
