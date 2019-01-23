@@ -72,7 +72,6 @@ header
     background-image: url(images/slider/bg1.jpg);
     background-size: cover;
     background-position: center 20%;
-
 }
 
 #barre_menu nav a
@@ -126,6 +125,7 @@ span
 	border-top: 8px #5CADD3 solid;
 	border-bottom: 8px #5CADD3 solid;
 	text-decoration:none;
+    border-radius: 5px;
 }
 
 .texte_presentation
@@ -144,29 +144,34 @@ span
 
 
 
-.left
-{
-    position: absolute;
-    color: white;
-    top: 230px;
-    right: 1235px;
-    background-color: black;
-    padding: 15px;
-    border-top-right-radius: 100px;
-    border-bottom-right-radius: 100px;
-}
-
 .right
 {
+    height: 50px;
+    width: 25px;
     position: absolute;
     color: white;
     top: 230px;
-    left: 1233px;
-    background-color: black;
-    padding: 15px;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+    right: 0px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
 
+.left
+{
+    height: 50px;
+    width: 25px;
+    position: absolute;
+    color: white;
+    top: 230px;
+    left: 0px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 /* services */
@@ -195,6 +200,7 @@ h3
         color:#5CADD3;	
         border: 3px solid white;
 	border-radius: 100%;
+    bottom: 6px;
 }
  
 hr
@@ -203,7 +209,7 @@ hr
     position: relative;
     z-index: 1;
     border:1px solid #ebebeb;
-	top: 18px;
+	top: 11px;
 }
  
 #mac_paragraphe
@@ -253,11 +259,6 @@ hr
 .fa-chart-line,.fa-cubes,.fa-chart-pie
 {
 	font-size: 25px;
-    position:relative;
-    padding:18px;
-    border:1px solid #ebebeb;
-    border-radius:50%;
-    color:#5CADD3;
 }
  
 .icone
@@ -272,6 +273,46 @@ hr
     text-align: left;
     width: 400px;
 }
+
+
+#paragraphe .fa-circle
+{
+    font-size: 12px;
+    position:relative;
+    bottom: 5px;
+    right: 13px;
+    background-color:#fff;
+    border:0px solid;
+    border-radius: 50%;
+    padding: 2px;
+    color:#5CADD3;
+}
+ 
+#paragraphe .fas
+{
+    display: inline-block;
+}
+ 
+#ux,#ui,#seo
+{
+    display: flex;
+}
+ 
+.fa-chart-line,.fa-cubes,.fa-chart-pie
+{
+    font-size: 25px;
+    position:relative;
+    padding:18px;
+    border:1px solid #ebebeb;
+    border-radius:50%;
+    color:#5CADD3;
+}
+ 
+.iconet
+{
+    padding-top:40px;      
+}
+
 
 /* portfolio */
 
@@ -296,7 +337,7 @@ hr
 .menu li:hover 
 {
 	background-color: #5CADD3;
-	border-bottom: 1px solid #468CAD;
+	border-bottom: 3px solid #468CAD;
 }
 
 .menu li:hover a
@@ -366,7 +407,7 @@ figure img
 #portfolio i
 {
 	position: absolute;
-	bottom: 80px;
+	bottom: 60px;
     left: 80%;
     padding:10px;
     border:2px solid white;
@@ -388,10 +429,16 @@ figure:hover figcaption
     right: 0;
     left: 0;
     bottom:0px;
-    height: 100px;
+    height: 80px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 }
+.legende p
+{
+    position: relative;
+     bottom: 15px;
+     left: 20px;
+  }  
 
 .bloc h4
 {
@@ -429,7 +476,6 @@ figure:hover figcaption
 
 form
 {
- 
     background-color:rgba(255, 255, 255, 0.8);
     width: 360px;
     position: absolute;
@@ -450,7 +496,9 @@ form
 form input
 {
     width: 310px;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
+    border-radius: 3px; 
+    height: 20px;
 }
  
 #bloc_form
@@ -463,6 +511,7 @@ textarea
 {
     width: 310px;
     height: 150px;
+    border-radius: 3px; 
 }
  
 #sendmessage button
@@ -505,12 +554,12 @@ textarea
 
     .left
     {
-        top: 200px;
+        display: none;
     }
 
     .right
     {
-        top: 200px;
+        display: none;
     }
 
     #portfolio
@@ -557,7 +606,6 @@ textarea
 
 @media all and (min-width: 300px) and (max-width: 758px)
 {
-
     #barre_menu 
     {
         display:initial;
@@ -646,6 +694,14 @@ textarea
         padding: 13px;
     }
 
+.menu li:first-child 
+{
+    width: 60px;
+}
+.menu i
+{
+    top: 37px;
+}
     form
     {
         width: 100vw;
@@ -668,6 +724,7 @@ textarea
     textarea
     {
         max-width: 90%;
+        border-radius: 5px;
 
     }
      iframe
@@ -679,5 +736,5 @@ textarea
     {
         top: 0;
     }
-
 }
+
